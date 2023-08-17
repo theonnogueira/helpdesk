@@ -1,6 +1,7 @@
 package com.theo.helpdesk.domain;
 
 import java.io.Serializable;
+
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Objects;
@@ -15,8 +16,6 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
-import org.hibernate.validator.constraints.br.CPF;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.theo.helpdesk.domain.enums.Perfil;
