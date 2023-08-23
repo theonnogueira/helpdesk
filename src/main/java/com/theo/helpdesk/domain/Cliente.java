@@ -9,7 +9,6 @@ import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.theo.helpdesk.domain.dtos.ClienteDTO;
-import com.theo.helpdesk.domain.dtos.TecnicoDTO;
 import com.theo.helpdesk.domain.enums.Perfil;
 
 @Entity
